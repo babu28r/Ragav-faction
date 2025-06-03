@@ -136,6 +136,41 @@ body {
     color: #f2f4f7;
  }
 
+ .payment-container h2 {
+  color: #28a745;
+}
+
+.payment-container p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+.pay-btn {
+  padding: 12px 24px;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
  @media screen and (max-width:600px) {
     .navbar-menu-toggle{
         display: block;
