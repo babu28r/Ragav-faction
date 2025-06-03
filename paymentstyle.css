@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; }
+
+ .navbar-links{
+    display: flex;
+    column-gap: 20px;
+ }
+ .navbar-links a{
+    text-decoration: none;
+    color:#03032b;
+ }
+ .navbar-links a:hover{
+    text-decoration: underline;
+    color: #03032b;
+ }
+
+ .navbar-menu-toggle{
+    display: none;
+ }
+
+ .side-navbar{
+    background-color:#03032b;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+ }
+
+.side-navbar-link{
+    margin-bottom: 30px;
+    color: white;
+}
+.side-navbar-links{
+    text-decoration: none;
+    color: white;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.payment-container-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px; /* optional spacing */
+}
+
+  
+  .payment-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .pay-btn {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pay-btn:hover {
+    background: #333;
+  }
+  
+  .summary {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .summary h4 {
+    margin-bottom: 10px;
+  }
+  
+  .summary p {
+    margin: 5px 0;
+  }
+  .footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #03032b;
+    color: #f2f4f7;
+ }
+
+ @media screen and (max-width:600px) {
+    .navbar-menu-toggle{
+        display: block;
+     }
+     .navbar-links{
+        display: none;
+     }
+     }
+
